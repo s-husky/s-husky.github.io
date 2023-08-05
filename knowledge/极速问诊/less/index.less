@@ -1,0 +1,74 @@
+//out: ../css/
+@import "./base.less";
+
+@adaptSize: 37.5rem;
+header{
+    height: (44 / @adaptSize);
+    line-height: (44 / @adaptSize);
+    // background-color: pink;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    h2{
+        font-size: (17 / @adaptSize);
+    }
+    .iconfont{
+        margin-left: (24 / @adaptSize);
+        font-size: (17 / @adaptSize);
+    }
+    .note{
+        margin-right: (15 / @adaptSize);
+        color: #2cb5a5;
+        font-size: (15 / @adaptSize);
+    }
+}
+.banner{
+    height: (260 / @adaptSize);
+    margin-top: (30 / @adaptSize);
+    margin-bottom: (34 / @adaptSize);
+    text-align: center;
+    img{
+        width: (240 / @adaptSize);
+    }
+    p{
+       margin-top: (18 / @adaptSize);
+       font-size: (15 / @adaptSize);
+       span{
+        color: #2cb5a5;
+       }
+    }
+}
+.service{
+    padding: 0 (15 / @adaptSize);
+    li{
+        margin-bottom: (15 / @adaptSize);
+        border: 1px solid #ededed;
+        padding: (15 / @adaptSize);
+        height: (78 / @adaptSize);
+        display: flex;
+        justify-content: space-between;
+        .type{
+            display: flex;
+            img{
+                display: block;
+            }
+            .disc{
+                margin-left: (14 / @adaptSize);
+                h4{
+                    font-size: (16 / @adaptSize);
+                    color: #3c3e42;
+                }
+                p{
+                    margin-top: (4 / @adaptSize);
+                    font-size: (13 / @adaptSize);
+                    color: #848484;
+                }
+            }
+        }
+        .iconfont{
+            line-height: (48 / @adaptSize);
+            font-size: (13 / @adaptSize);
+        }
+    }
+}
+

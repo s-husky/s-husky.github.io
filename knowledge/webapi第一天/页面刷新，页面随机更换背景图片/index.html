@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            background-image: url(./images/desktop_1.jpg);
+            background-repeat: no-repeat;
+            background-position: top center;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        function getRandom(M,N){
+            return Math.floor(Math.random()*(N - M + 1) + M)
+        }
+        const random = getRandom(1,10)
+        document.body.style.backgroundImage = `url(./images/desktop_${random}.jpg)`
+    </script>
+</body>
+</html>

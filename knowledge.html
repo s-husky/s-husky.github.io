@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学习总结</title>
+    <link rel="stylesheet" href="./knowledge/jsapi.css">
+    <link rel="stylesheet" href="./knowledge/common.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- 导航 -->
+        <div class="nav">
+            <div class="active">HTML5</div>
+            <div>CSS3</div>
+            <div>JavaScript</div>
+            <div>TypeScript</div>
+        </div>
+        <div class="center">
+            <!-- html部分 -->
+            <div class="html">
+            </div>
+            <!-- css部分 -->
+            <div class="css tab-active">
+                <!-- 内容主体-->
+                <div class="content">
+                    <!-- 侧边导航 -->
+                    <div class="content-left">
+                        <div class="styleNav">学习内容</div>
+                        <h3>移动web第三天</h3>
+                        <h4 data-tag="mobile">移动适配</h4>
+                        <h4 data-tag="rem">rem适配方案</h4>
+                        <h4 data-tag="less">less</h4>
+                        <h4 data-tag="anli">项目案例</h4>
+                        <h3>移动web第四天</h3>
+                        <h4 data-tag="vw">vw适配方案</h4>
+                    </div>
+                    <!-- 内容区域 -->
+                    <div class="content-right">
+                        <!-- 第一天 -->
+                        <div class="mobile">
+                            <h2>谷歌模拟器</h2>
+                            <p>一般移动端调试时调试工具放下面,PC端放下面</p>
+                            <h2>屏幕分辨率</h2>
+                            <img src="./knowledge/img/屏幕截图 2023-07-31 124904.png" />
+                            <p>制作网页参考 逻辑分辨率</p>
+                            <img src="./knowledge/img/屏幕截图 2023-07-31 131123.png" />
+                            <h2>视口</h2>
+                            <p>手机屏幕尺寸不同，网页宽度均为100%</p>
+                            <p>网页的宽度和逻辑分辨率尺寸相同</p>
+                            <img src="./knowledge/img/屏幕截图 2023-07-31 131525.png" />
+                            <h2>二倍图</h2>
+                            <p>概念：设计稿里面每个元素的尺寸的倍数</p>
+                            <p>作用：防止图片在高分辨率屏幕下模糊失真</p>
+                            <img src="./knowledge/img/屏幕截图 2023-07-31 132305.png" />
+                        </div>
+                        <div class="rem">
+                            <img src="./knowledge/img/屏幕截图 2023-07-31 133046.png" />
+                            <h2>rem适配方案</h2>
+                            <p>rem单位，是相对单位</p>
+                            <p>rem单位是相对于html标签的字号计算结果</p>
+                            <p>1rem = 1html字号大小</p>
+                            <img src="./knowledge/img/屏幕截图 2023-07-31 140840.png" />
+                            <img src="./knowledge/img/屏幕截图 2023-07-31 141000.png" />
+                            <p>目前rem布局方案中，将网页等分成10份，html标签的字号为视口宽度的十分之一</p>
+                            <img src="./knowledge/img/屏幕截图 2023-07-31 142036.png" />
+                            <h2>rem-flexible.js</h2>
+                            <p>rem-flexible.js是手淘开发出的一个用来适配移动端的js库，引入就行</p>
+                            <p>核心原理是根据不同的视口宽度给网页中html根节点设置不同的font-size</p>
+                            <h2>rem-移动适配</h2>
+                            <img src="./knowledge/img/屏幕截图 2023-07-31 142755.png" />
+                            <img src="./knowledge/img/屏幕截图 2023-07-31 142906.png" />
+                        </div>
+                        <div class="less">
+                            <img src="./knowledge/img/屏幕截图 2023-07-31 151010.png" />
+                            <img src="./knowledge/img/屏幕截图 2023-07-31 151051.png" />
+                            <img src="./knowledge/img/屏幕截图 2023-07-31 151128.png" />
+                            <img src="./knowledge/img/屏幕截图 2023-07-31 151217.png" />
+                            <img src="./knowledge/img/屏幕截图 2023-07-31 151358.png" />
+                            <img src="./knowledge/img/屏幕截图 2023-07-31 151442.png" />
+                            <img src="./knowledge/img/屏幕截图 2023-07-31 151522.png" />
+                            <img src="./knowledge/img/屏幕截图 2023-07-31 151558.png" />
+                            <img src="./knowledge/img/屏幕截图 2023-07-31 151635.png" />
+                        </div>
+                        <div class="anli">
+                            <h2>移动端项目</h2>
+                            <a href="./knowledge/极速问诊/index.html">极速问诊</a>
+                            <h2>注意</h2>
+                            <p>除法 / → (计算表达式) 或 ./knowledge/ → 推荐（）</p>
+                            <p>如果表达式有多个单位，最终css里面以第一个单位为准</p>
+                            <p>& 表示的是当前选择器，代码写到谁的大括号里面就表示谁 → 不会生成后代选择器</p>
+                            <p>应用：配合hover伪类或nth-child结构伪类使用</p>
+                        </div>
+                        <!-- 第二天 -->
+                        <div class="vw">
+                            <img src="./knowledge/img/屏幕截图 2023-08-01 140826.png" />
+                            <img src="./knowledge/img/屏幕截图 2023-08-01 140952.png" />
+                            <img src="./knowledge/img/屏幕截图 2023-08-01 141135.png" />
+                            <img src="./knowledge/img/屏幕截图 2023-08-01 141210.png" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- js部分 -->
+            <div class="js">
+                <!-- 内容主体-->
+                <div class="content">
+                    <!-- 侧边导航 -->
+                    <div class="content-left">
+                        <div class="styleNav">学习内容</div>
+                        <h3>web APIs 第一天</h3>
+                        <h4 data-tag="web1">变量声明</h4>
+                        <h4 data-tag="web2">Web API 基本认知</h4>
+                        <h4 data-tag="web3">获取Dom对象</h4>
+                        <h4 data-tag="web4">操作元素内容</h4>
+                        <h4 data-tag="web5">操作元素属性</h4>
+                        <h4 data-tag="web6">定时器-间歇函数</h4>
+                        <h4 data-tag="web7">综合案例</h4>
+                        <h3>web APIs 第二天</h3>
+                        <h4 data-tag="web21">事件监听</h4>
+                        <h4 data-tag="web22">事件类型</h4>
+                        <h4 data-tag="web23">事件对象</h4>
+                        <h4 data-tag="web24">环境对象</h4>
+                        <h4 data-tag="web25">回调函数</h4>
+                        <h4 data-tag="web26">综合案例</h4>
+                    </div>
+                    <!-- 内容区域 -->
+                    <div class="content-right"> 
+                        <!-- web APIs 第一天 -->
+                        <div class="web1">
+                            <img src="./knowledge/img/屏幕截图 2023-08-04 103748.png" />
+                            <img src="./knowledge/img/屏幕截图 2023-08-04 103911.png" />
+                            <img src="./knowledge/img/屏幕截图 2023-08-04 104213.png" />
+                            <img src="./knowledge/img/屏幕截图 2023-08-04 104332.png" />
+                        </div>
+                        <div class="web2">
+                            <img src="./knowledge/img/屏幕截图 2023-08-04 104628.png" />
+                            <img src="./knowledge/img/屏幕截图 2023-08-04 104653.png" />
+                            <img src="./knowledge/img/屏幕截图 2023-08-04 104715.png" />
+                            <img src="./knowledge/img/屏幕截图 2023-08-04 104738.png" />
+                            <img src="./knowledge/img/屏幕截图 2023-08-04 104801.png" />
+                            <img src="./knowledge/img/屏幕截图 2023-08-04 104828.png" />
+                        </div>
+                        <div class="web3">
+                            <img src="./knowledge/img/屏幕截图 2023-08-04 105344.png" />
+                            <img src="./knowledge/img/屏幕截图 2023-08-04 105407.png" />
+                            <img src="./knowledge/img/屏幕截图 2023-08-04 105428.png" />
+                            <img src="./knowledge/img/屏幕截图 2023-08-04 105452.png" />
+                            <img src="./knowledge/img/屏幕截图 2023-08-04 105617.png" />
+                            <img src="./knowledge/img/屏幕截图 2023-08-04 105640.png" />
+                            <img src="./knowledge/img/屏幕截图 2023-08-04 110106.png" />
+                        </div>
+                        <div class="web4">
+                            <img src="./knowledge/img/屏幕截图 2023-08-04 110543.png" />
+                            <img src="./knowledge/img/屏幕截图 2023-08-04 110603.png" />
+                            <img src="./knowledge/img/屏幕截图 2023-08-04 110620.png" />
+                            <img src="./knowledge/img/屏幕截图 2023-08-04 110635.png" />
+                        </div>
+                        <div class="web5">
+                            <img src="./knowledge/img/屏幕截图 2023-08-04 110941.png" />
+                            <img src="./knowledge/img/屏幕截图 2023-08-04 112433.png" />
+                            <img src="./knowledge/img/屏幕截图 2023-08-04 112451.png" />
+                            <img src="./knowledge/img/屏幕截图 2023-08-04 112513.png" />
+                            <img src="./knowledge/img/屏幕截图 2023-08-04 114618.png" />
+                            <img src="./knowledge/img/屏幕截图 2023-08-04 114814.png" />
+                            <img src="./knowledge/img/屏幕截图 2023-08-04 114833.png" />
+                            <img src="./knowledge/img/屏幕截图 2023-08-04 114852.png" />
+                            <img src="./knowledge/img/屏幕截图 2023-08-04 131532.png" />
+                            <img src="./knowledge/img/屏幕截图 2023-08-04 131600.png" />
+                            <img src="./knowledge/img/屏幕截图 2023-08-04 131654.png" />
+                        </div>
+                        <div class="web6">
+                            <img src="./knowledge/img/屏幕截图 2023-08-04 131907.png" />
+                            <img src="./knowledge/img/屏幕截图 2023-08-04 131947.png" />
+                            <img src="./knowledge/img/屏幕截图 2023-08-04 132001.png" />
+                            <img src="./knowledge/img/屏幕截图 2023-08-04 132017.png" />
+                        </div>
+                        <div class="web7">
+                            <a href="./knowledge/webapi第一天/年会抽奖案例/随机抽奖素材.html" target="_blank">年会抽奖案例</a>
+                            <a href="./knowledge/webapi第一天/轮播图定时器版/轮播图素材.html" target="_blank">轮播图定时器版</a>
+                            <a href="./knowledge/webapi第一天/轮播图随机版/轮播图素材.html" target="_blank">轮播图随机版</a>
+                            <a href="./knowledge/webapi第一天/阅读注册协议/用户注册倒计时.html" target="_blank">用户注册倒计时</a>
+                            <a href="./knowledge/webapi第一天/页面刷新，图片随机更换/index.html" target="_blank">页面刷新，图片随机更换</a>
+                            <a href="./knowledge/webapi第一天/页面刷新，页面随机更换背景图片/index.html" target="_blank">页面刷新，页面随机更换背景图片</a>
+                            <h2>注意</h2>
+                            <p>input单标签，innerHTML获取不了内容，通过value获取；button双标签则相反</p>
+                            <p>document.querySelectorAll()获取的是伪数组，获取一个也是伪数组</p>
+                            <p>模版字符串不要强制换行，有时会有问题，不一定</p>
+                            <p>通过js操作的样式生成的是行内样式表</p>
+                            <p>vscode alt+shif选中多行进行操作</p>
+                        </div>
+                        <!-- web APIs 第二天 -->
+                        <div class="web21">
+                            <img src="./knowledge/img/屏幕截图 2023-08-05 114224.png" />
+                            <img src="./knowledge/img/屏幕截图 2023-08-05 114245.png" />
+                            <img src="./knowledge/img/屏幕截图 2023-08-05 114304.png" />
+                            <img src="./knowledge/img/屏幕截图 2023-08-05 114323.png" />
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <script>
+            // 侧边导航栏切换
+            const getArr1 = document.querySelectorAll(".content-left h4")
+            const getArr2 = document.querySelectorAll(".content-right > div")
+            getArr2.forEach(function (elem) {
+                elem.style.display = 'none'
+            })
+            for (var i = 0; i < getArr1.length; i++) {
+                getArr1[i].addEventListener("click", function (event) {
+                    const tag = event.srcElement.getAttribute('data-tag')
+                    const elem = document.querySelector('.' + tag)
+                    getArr2.forEach(function (elem) {
+                        elem.style.display = 'none'
+                    })
+                    elem.style.display = 'block'
+                    console.log(i, event.srcElement.getAttribute('data-tag'))
+                    // const activeElem = document.querySelector(".active1")
+                    // const className = 'mobile active1'
+                    // activeElem.className = className.replace('active1', '')
+                    // console.log(document.querySelector(".active1").classList);
+                    // document.querySelector(".active1").classList.remove("active1")
+                    // getArr2[i].classList.add("active1")
+                })
+            }
+            // nav切换
+            const nav = document.querySelectorAll(".nav > div")
+            for ( let j = 0; j < nav.length; j++) {
+                nav[j].addEventListener("click", function (e) {
+                    console.log(document.querySelector(".tab-active"));
+                    document.querySelector(".tab-active").classList.remove("tab-active")
+                    document.querySelector(`.center > div:nth-child(${j + 1})`).classList.add("tab-active")
+                })
+            }
+        </script>
+    </div>
+</body>
+
+</html>

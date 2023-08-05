@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* 公共样式 */
+img{
+    width: 600px;
+    margin: 10px 0;
+    display: block;
+    border-bottom: 1px solid #000;
+}
+.content-right h2,.content p{
+    margin: 10px 0;
+}
+a{
+    text-decoration: none;
+    color: #333;
+    height: 30px;
+    display: block;
+}
+/* 外层 */
+.container{
+    width: 1210px;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+/* 导航 */
+.nav{
+    background-color: #E8E7E3;
+    height: 48px;
+    margin-bottom: 24px;
+    display: flex;
+}
+.nav>div{
+    width: 160px;
+    text-align: center;
+    font-weight: 700;
+    color: #7D7D7C;
+    height: 48px;
+    line-height: 48px;
+    cursor: pointer;
+    font-style: italic;
+    transition: color 0.3s;
+    font-size: 16px;
+}
+.nav .active,
+.nav > div:hover {
+    background:#333;
+    color: #fff;
+}
+.nav > div:hover {
+    background:#888;
+}
+/* 内容 */
+.content{
+    display: flex;
+}
+/* 侧边导航 */
+.content-left{
+    width: 160px;
+    background-color: #FCFDF8;
+}
+.content .styleNav{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: #9C9B9A;
+    background-color: #E8E7E3;
+}
+.content-left h3{
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+.content-left h4{
+    height: 24px;
+    line-height: 24px;
+    font-weight: 400;
+    text-align: center;
+    font-size: 12px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+/* 内容区域 */
+.content-right{
+    width: 1050px;
+    padding-left: 25px;
+    background-color: #fff;
+}
+.html,.css,.js{
+    display: none;
+}
+.tab-active{
+    display: block;
+}
+

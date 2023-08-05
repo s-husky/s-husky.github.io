@@ -1,0 +1,101 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+body,
+ul,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, PingFangSC-Regular, "PingFang SC", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+img {
+  vertical-align: bottom;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  color: #333;
+  text-decoration: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+header {
+  height: 1.17333333rem;
+  line-height: 1.17333333rem;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+header h2 {
+  font-size: 0.45333333rem;
+}
+header .iconfont {
+  margin-left: 0.64rem;
+  font-size: 0.45333333rem;
+}
+header .note {
+  margin-right: 0.4rem;
+  color: #2cb5a5;
+  font-size: 0.4rem;
+}
+.banner {
+  height: 6.93333333rem;
+  margin-top: 0.8rem;
+  margin-bottom: 0.90666667rem;
+  text-align: center;
+}
+.banner img {
+  width: 6.4rem;
+}
+.banner p {
+  margin-top: 0.48rem;
+  font-size: 0.4rem;
+}
+.banner p span {
+  color: #2cb5a5;
+}
+.service {
+  padding: 0 0.4rem;
+}
+.service li {
+  margin-bottom: 0.4rem;
+  border: 1px solid #ededed;
+  padding: 0.4rem;
+  height: 2.08rem;
+  display: flex;
+  justify-content: space-between;
+}
+.service li .type {
+  display: flex;
+}
+.service li .type img {
+  display: block;
+}
+.service li .type .disc {
+  margin-left: 0.37333333rem;
+}
+.service li .type .disc h4 {
+  font-size: 0.42666667rem;
+  color: #3c3e42;
+}
+.service li .type .disc p {
+  margin-top: 0.10666667rem;
+  font-size: 0.34666667rem;
+  color: #848484;
+}
+.service li .iconfont {
+  line-height: 1.28rem;
+  font-size: 0.34666667rem;
+}
